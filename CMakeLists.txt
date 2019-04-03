@@ -2,8 +2,10 @@ cmake_minimum_required(VERSION 2.8)
 INCLUDE(ExternalProject)
 
 project(cmake_template)
+
 set(CMAKE_CXX_STANDARD 11)
 
+set (gtest_disable_pthreads ON)
 add_subdirectory(googletest)
 include_directories(
  googletest/googlemock/include
