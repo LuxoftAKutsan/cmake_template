@@ -1,5 +1,5 @@
 #include "foo.h"
 
-void Foo::foo() {
+void Foo::doStuff() {
 
 }

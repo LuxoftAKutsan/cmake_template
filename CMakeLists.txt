@@ -4,6 +4,7 @@ INCLUDE(ExternalProject)
 project(cmake_template)
 
 set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_FLAGS "-g")
 
 set (gtest_disable_pthreads ON)
 add_subdirectory(googletest)
