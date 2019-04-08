@@ -1,9 +1,10 @@
 cmake_minimum_required(VERSION 2.8)
 INCLUDE(ExternalProject)
 
-project(cmake_template)
+project(movie_rental)
 
 set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_FLAGS "-g -fsanitize=address -fno-omit-frame-pointer")
 
 set (gtest_disable_pthreads ON)
 add_subdirectory(googletest)
