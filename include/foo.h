@@ -2,5 +2,5 @@
 
 class Foo : public IFoo {
 public:
-   virtual void foo() = 0;
+   virtual bool doStuff() = 0;
 };

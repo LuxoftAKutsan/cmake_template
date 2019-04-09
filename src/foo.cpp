@@ -1,5 +1,6 @@
 #include "foo.h"
 
-void Foo::foo() {
-
+bool Foo::doStuff()
+{
+    return 3 == 5;
 }
